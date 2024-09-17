@@ -1,0 +1,59 @@
+.navbar {
+  border-bottom: 1px solid #0A1C3E;
+  background-color: #FEFAFA;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 90px;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  color: #0A1C3E;
+  font-family: "Futura LT W01 Medium";
+  font-size: 14px;
+}
+
+.navbar-container a:hover {
+  text-decoration:  underline;
+}
+
+.navbar-container ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-container h1 {
+  padding: 15px;
+  font-family: "Snell Roundhand W01 Script", cursive;
+  color: #0A1C3E;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-buttons button {
+  font-family: "Futura LT W01 Medium";
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #0A1C3E;
+  cursor: pointer;
+  padding: 7px;
+  transition: .3s ease-in-out;
+}
+
+.navbar-buttons button:hover {
+  background-color: #0A1C3E;
+  color: white;
+}
+
+.navbar-buttons #register-now {
+  border: 2px solid #0A1C3E;
+}
